@@ -38,6 +38,11 @@ public class FindNumber {
         return sc.nextLine();
     }
 
+    /**
+     * 检测输入是否为数字
+     * @param str
+     * @return
+     */
     public static boolean isNumeric(String str) {
         // 该正则表达式可以匹配所有的数字 包括负数
         Pattern pattern = Pattern.compile("-?[0-9]+(\\.[0-9]+)?");
@@ -56,6 +61,10 @@ public class FindNumber {
     }
 
 
+    /**
+     * 数字对应的所有分解组合
+     * @param n
+     */
     private static void splitNumber(int n) {
         int startNumber;
         int endNumber;

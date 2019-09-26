@@ -25,6 +25,12 @@ public class FindSuperWords {
         System.out.println(isSuper);
     }
 
+    /**
+     * 判断A是否是B的“超集”
+     * @param A
+     * @param B
+     * @return
+     */
     public static boolean compareStrings(String A, String B) {
         // write your code here
         Map<Character, Integer> map1 = new HashMap<>();

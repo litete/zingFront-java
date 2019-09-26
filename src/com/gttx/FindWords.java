@@ -24,6 +24,12 @@ public class FindWords {
         System.out.println("第二公共单词： " + words);
     }
 
+    /**
+     * 查找第二公共单词
+     * @param s
+     * @param t
+     * @return
+     */
     private static String findWords(String s, String t) {
         String returnWords;
         String[] sArr = s.split(" ");
